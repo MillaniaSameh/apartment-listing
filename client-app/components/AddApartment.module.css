@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  row-gap: 0;
+  column-gap: 2rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

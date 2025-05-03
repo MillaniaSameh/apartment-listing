@@ -1,0 +1,35 @@
+.searchContainer {
+  margin: 25px auto;
+  max-width: 50vw;
+}
+
+.overlayText {
+  color: rgb(236, 160, 160);
+  font-size: 2.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: var(--font-geist-sans);
+  margin: 1.5rem auto;
+}
+
+@media (max-width: 600px) {
+  .searchContainer {
+    max-width: 80vw;
+  }
+
+  .overlayText {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .searchContainer {
+    max-width: 80vw;
+  }
+
+  .overlayText {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+}

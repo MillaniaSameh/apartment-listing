@@ -1,0 +1,20 @@
+.apartmentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.noApartmentFound {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .apartmentContainer {
+    width: 90%;
+    gap: 30px;
+  }
+}

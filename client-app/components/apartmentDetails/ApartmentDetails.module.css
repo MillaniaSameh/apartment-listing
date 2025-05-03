@@ -1,0 +1,53 @@
+.apartmentDetailsContainer {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.apartmentImage {
+  border-radius: 10px;
+  height: 60vh;
+  width: auto;
+}
+
+.apartmentDescription {
+  margin-top: 1.5rem;
+}
+
+.apartmentPrice {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .apartmentDetailsContainer {
+    margin-top: 0;
+    gap: 1rem;
+    /* margin-bottom: 2rem; */
+  }
+
+  .apartmentImage {
+    height: 28vh;
+    margin-bottom: 1rem;
+  }
+
+  .apartmentDetails {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+  .apartmentImage {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .apartmentImage {
+    height: 23vh;
+    margin-bottom: 1rem;
+  }
+}
